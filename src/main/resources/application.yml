@@ -9,9 +9,9 @@ spring:
     hikari:
       auto-commit: false
       pool-name: Hikari
-    username: mill_admin
+    username: <TO_BE_SET>
     url: jdbc:postgresql://localhost:5432/mill_db?currentSchema=inventory
-    password: password
+    password: <TO_BE_SET>
     type: com.zaxxer.hikari.HikariDataSource
   main:
     banner-mode: off
